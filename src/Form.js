@@ -76,7 +76,7 @@ function Form({ submitHandler }){
                 </div>
             </div>
             <div className="form__submit">
-                <button className="form__submit-btn" type="button" onClick={handleSubmit}/>
+                <button className="form__submit-btn" type="button" onClick={handleSubmit}>submit</button>
             </div>
         </form>
     )
